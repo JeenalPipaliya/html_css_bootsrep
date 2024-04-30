@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: black; */
+}
+
+
+
+.left {
+    font-size: 25px;
+}
+
+.right {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+    color: white;
+}
+
+.right a:hover {
+    text-decoration: underline;
+
+}
+
+.right i {
+    display: none;
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+}
+
+
+button {
+    font-size: 25px;
+    padding: 5px;
+    background-color: #3d626c;
+    color: white;
+    border: 2px solid white;
+    /* transition:  all 1s linear; */
+    /* position: relative; */
+
+    /* background-color: black; */
+}
+
+button:hover {
+    background-color: white;
+    /* position: absolute; */
+    /* background-color: bk; */
+    color: black;
+    /* transition: all 0.5s linear; */
+
+
+    /* box-shadow:  inset 400px 0  0 0 ; */
+    color: #3d626c;
+}
+
+
+@media screen and (max-width:768px) {
+    button {
+        display: none;
+    }
+
+    .right a {
+        display: none;
+    }
+
+    .right i {
+        display: flex;
+    }
+}
+
+/* main-container */
+
+/* 
+.container-fluid {
+    width: 100%;
+
+} */
+
+.image {
+    background: url("../img/mbr.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.contant {
+    gap: 4rem;
+    text-align: left;
+    color: white;
+    align-items: left;
+}
+
+
+
+
+
+
+/* menu-container */
+
+
+.cart::after {
+    content: '';
+    position: absolute;
+    border-radius: 100%;
+    z-index: -6;
+    bottom: -41px;
+    left: 50%;
+    right: 38%;
+    opacity: 0;
+    transition: all 0.3s;
+    transform: translate(-50%, -50%);
+    width: 72%;
+    height: 97px;
+    box-shadow: 0 35px 30px 0 rgba(0, 0, 0, 0.35);
+
+}
+
+.cart:hover::after {
+    opacity: 1;
+}
+
+
+
+
+#banner {
+    display: flex;
+}
+
+.btn1 {
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+.btn1:hover {
+    text-decoration: none;
+    transition: all 2s linear;
+    transition-delay: 2s;
+}
+
+@media screen and (max-width:768px) {
+    #banner-col {
+        display: block;
+
+    }
+}
+
+
+
+
+/* new way */
+
+.h1 {
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.btn {
+    color: #3d626c;
+}
+
+
+
+/*  today*/
+
+#h1 {
+    color: #3d626c;
+    text-align: center;
+    font-size: 45px;
+    /* padding-top: 0px; */
+}
+
+
+
+
+/* creat design */
+
+.image-1 {
+    background-image: url("../img/mbr-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 200% 111%;
+    height: 800px;
+    /* background-color:black; */
+    /* opacity: 0.8; */
+}
+
+.image-2 h1 {
+    font-size: 4.5rem;
+}
+
+.pa-1 {
+    color: #3d626c;
+    background-color: rgb(168, 222, 204);
+    height: 310px;
+    font-size: 2.9rem;
+    text-align: center;
+}
+
+.pa-2 {
+    height: 275px;
+    font-size: 2.9rem;
+    text-align: center;
+    color: #3d626c;
+    background-color: rgb(168, 222, 204);
+}
+
+/* } */
+
+
+
+
+
+/* features */
+
+
+i {
+    font-size: 70px;
+    color: #3d626c;
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .media-row {
+        /* overflow: hidden; */
+        /* width: 100%; */
+        display: block;
+
+    }
+}
+
+
+
+
+
+/* craft shop fature */
+
+.accordion-button {
+    color: #3d626c !important;
+
+}
+
+.accordion-button:hover {
+    background: #3d626c !important;
+    color: white !important;
+    border: none;
+}
+
+
+
+
+
+/*images  */
+
+
+
+/* counter */
+.container {
+    margin-top: 100px;
+}
+
+.counter-box {
+    display: block;
+    /* background: #f6f6f6; */
+    padding: 40px 20px 37px;
+    text-align: center
+}
+
+.counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #3d626c;
+    font-size: 25px;
+    font-weight: 500
+}
+
+.counter-box i {
+    font-size: 60px;
+    margin: 0 0 15px;
+}
+
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #3d626c;
+    line-height: 28px
+}
+
+
+
+
+/* glossary */
+
+body {
+    background-color: #16a085;
+    color: #ecf0f1;
+}
+
+
+
+/* our clinets  */
+
+.col-img {
+    text-align: center !important;
+    /* text-align: center !important; */
+}
+
+
+
+/* slider */
+
+.carousel-inner {
+    color: #3d626c;
+    text-align: center;
+    object-fit: cover;
+    align-items: center;
+    text-align: center;
+    background-color:aliceblue;
+  
+}
+
+/* about-store */
+
+.about-store {
+  
+    background: rgb(218, 216, 212);
+    color: gray;
+}
+
+strong {
+    color: #3d626c;
+}
+
+
+
+/* socali-network */
+
+.social-network {
+    text-align: center;
+    background: whitesmoke;
+    padding-top: 50px;
+    color: #3d626c;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+i {
+    padding-top: 20px;
+    padding: 10px;
+}
+
+
+
+/*  */
